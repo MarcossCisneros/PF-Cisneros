@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap'); 
+//font-family: 'Zen Dots', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+//font-family: 'Noto Sans', sans-serif;
+
+
+//globales
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.6;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #FFF;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    font-size: 2rem;
+}
