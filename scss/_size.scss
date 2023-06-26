@@ -47,6 +47,19 @@
     height: 10vh;
 }
 
+//@media
+@media(min-width: 1200px){
+    .md{
+        width: 75%;
+    }
+}
+
+@media(max-width: 600px){
+    .lg{
+        width: 100%;
+    }
+}
+
 
 
 

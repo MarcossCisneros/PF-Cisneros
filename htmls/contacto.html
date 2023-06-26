@@ -6,90 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volátil Motors</title>
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../node_modules/animate.css/animate.css">
+    <script src="https://kit.fontawesome.com/1780aeeeb1.js" crossorigin="anonymous"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 
 </head>
-<body">
-
-    <header>
-         <!--navbar-->
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container-fluid nav-color">
-                <!--Logo-->
-              <a class="navbar-brand fs-4" href="#">Volátil <br> Motors</a>
-
-                <!--toggle-btn-->
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <!--sidebar-->
-              <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-
-                <!--siderbar heeader-->
-                <div class="offcanvas-header text-white border-bottom">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Volátil Motors</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-
-                <!--sidebar body-->
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="deportivos.html">Deportivos</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="lujosos.html">Lujosos</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="pickups.html">Pick Ups</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link contactanos active" href="contacto.html">Contactanos</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <!--logo-->
+      <a class="navbar-brand title" href="index.html">Volátil <br> Motors</a>
+      <!--toggle btn-->
+      <button class="navbar-toggler border-0 shadow-none btn-size-md" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <!--sidebar-->
+      <div class="sidebar-deg offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!--sidebar header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title title" id="offcanvasNavbarLabel">Volátil Motors</h5>
+          <button type="button" class="btn-close btn-close-white border-0 shadow-none btn-size-md" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!--offcanvas body-->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-align-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="deportivos.html">Deportivos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lujosos.html">Lujosos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pickups.html">Pick Ups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-contacto animated" href="contacto.html">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
 
     <main>
-      <div class="main_title">
-        <p class="main_title-page">Contacto</p>
-      </div>
-
-      <div class="contacto">
-        <form action="">
-          <input type="text" name="nombre" placeholder="Nombre" id="">
-          <input type="text" name="apellido" placeholder="Apellido" id="">
-          <input type="date" name="fecha" id="">
-          <input type="email" name="email" placeholder="@email" id="">
-          <p class="text_area-title">Deje su opinion</p>
-          <textarea name="opinion" id="" placeholder="Escriba aqui su opinion"></textarea>
-          <input type="submit" name="enviar" placeholder="enviar" id="">
-        </form>
-      </div>
+      <article class="text-align-center justify-content-center flex-column align-items-center">
+        <div class="main_title text-align-center justify-content-center">
+          <p class="main_title-page banner title m-top-10 m-bottom-10">Contacto</p>
+        </div>
+        
+        <div class="contacto">
+          <form action="" class="flex-column m-bottom-10>
+            <input class="m-top-10 banner input" type="text" name="nombre" placeholder="Nombre" id="">
+            <input class="m-top-10 banner input" type="text" name="apellido" placeholder="Apellido" id="">
+            <input class="m-top-10 banner input" type="date" name="fecha" id="">
+            <input class="m-top-10 banner input" type="email" name="email" placeholder="@email" id="">
+            <p class="text_area-title subtitle text-align-center bg-dark m-bottom-10 m-top-10">Deje su opinion</p>
+            <textarea class="banner input" name="opinion" id="" placeholder="Escriba aqui su opinion"></textarea>
+            <input class="input banner m-top-10" type="submit" name="enviar" placeholder="enviar" id="">
+          </form>
+        </div>
+      </article>
     </main>
 
-    <footer>
+    <footer class="h-100 justify-content-center align-items-center effect-fade flex-column m-top-10">
       <div class="footer">
-          <p class="footer_text">Dejanos tu Reseña o Contactanos</p>
-          <div class="footer_redes">
-            <div class="footer_redes-links"><a href="https://www.whatsapp.com/"><img src="../assets/whatsapp.png" alt="whatsapp"></a></div>
-            <div class="footer_redes-links"><a href="https://mail.google.com/"><img src="../assets/gmail.png" alt="gmail"></a></div>
-            <div class="footer_redes-links"><a href="https://www.instagram.com/"><img src="../assets/instagram.png" alt="instagram"></a></div>
-          </div>
+        <p class="footer_title title">Dejanos tu Reseña o Contactanos</p>
+        <div class="footer_redes flex-row justify-content-around
+        align-items-center">
+          <div class="footer_redes-links"><a class="fs-2" href="https://www.whatsapp.com/"><i class="animated-links fa-brands fa-whatsapp"></i></a></div>
+          <div class="footer_redes-links"><a class="fs-2" href="https://mail.google.com/"><i class="animated-links fa-sharp fa-at"></i></a></div>
+          <div class="footer_redes-links"><a class="fs-2" href="https://www.instagram.com"><i class="animated-links fa-brands fa-instagram"></i></a></div>
+        </div>
       </div>
-      <div class="copy">
+      <div class="copy effect-fade w-100 text-align-center">
         <p>©TodosLosDerechosReservados</p>
       </div>
     </footer>
-
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
