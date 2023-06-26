@@ -10,3 +10,8 @@
     animation: heartBeat;
     animation-duration: 1.5s;
 }
+
+.animated-a:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
