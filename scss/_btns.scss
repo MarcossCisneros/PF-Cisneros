@@ -1,0 +1,25 @@
+//botones
+.btn{
+    background-color: $grey;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-contacto{
+    @extend .btn;
+    background-color: $blue !important;
+    color: #fff;
+}
+
+.btn-size-lg{
+    font-size: 2.7rem;
+}
+
+.btn-size-md{
+    font-size: 2rem;
+}
+
+.btn-size-sm{
+    font-size: 1.2rem;
+}

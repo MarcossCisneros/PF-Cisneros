@@ -1,0 +1,18 @@
+//colores de fondo
+$bg-dark: rgb(0,0,0,0);
+$bg-transparent: rgba(0, 0, 0, 0.4);
+$bg-orange: #F7A000;
+$bg-light: rgba(255,255,255);
+$bg-beige: #FBECD3;
+//colores generales
+$blue: #2968D6;
+$white:#fff;
+$orange: #F7A000;
+$black: #000;
+$grey: #464040;
+
+//effect-fade
+.effect-fade{
+    background-color: $bg-transparent;
+    backdrop-filter: blur(10px);
+}

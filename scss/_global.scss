@@ -4,24 +4,66 @@
 //font-family: 'Noto Sans', sans-serif;
 
 
-//globales
+//global-body
 body{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    line-height: 1.6;
-    font-family: 'Noto Sans', sans-serif;
+    background-image: url(../img/fondo-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 
-a{
-    text-decoration: none;
-    display: inline-block;
-    color: #FFF;
-}
 
+//text
 .title{
     text-align: center;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Zen Dots', cursive !important;
     font-size: 2rem;
 }
+
+.subtitle{
+    @extend p;
+    font-size: 1.5rem !important;
+}
+
+p{
+    color: #FFF;
+    line-height: 1.6;
+    font-family: 'Noto Sans', sans-serif !important;
+    margin: 0;
+}
+
+
+//banners
+.banner{
+    @extend .effect-fade;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+//hr
+.hr-w-1{
+    border: 1px solid #fff;
+}
+.hr-w-2{
+    border: 2px solid #fff;
+}
+.hr-w-3{
+    border: 3px solid #fff;
+}
+.hr-w-4{
+    border: 4px solid #fff;
+}
+.hr-w-5{
+    border: 5px solid #fff;
+}
+
+//links
+a{
+    text-decoration: none;
+    font-size: 1.1rem !important;
+}
+
