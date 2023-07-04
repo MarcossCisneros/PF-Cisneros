@@ -67,7 +67,7 @@
             <input class="m-top-10 banner input" type="email" name="email" placeholder="@email" id="">
             <p class="text_area-title subtitle text-align-center bg-dark m-bottom-10 m-top-10">Deje su opinion</p>
             <textarea class="banner input" name="opinion" id="" placeholder="Escriba aqui su opinion"></textarea>
-            <input class="input banner m-top-10" type="submit" name="enviar" placeholder="enviar" id="">
+            <input onclick=mostrarAlerta() class="input banner m-top-10" type="submit" name="enviar" placeholder="enviar" id="">
           </form>
         </div>
       </article>
@@ -87,5 +87,11 @@
         <p>©TodosLosDerechosReservados</p>
       </div>
     </footer>
+
+    <script>
+      function mostrarAlerta() {
+        alert("Tu mensaje ha sido enviado. Gracias por escribirnos!");
+      }
+      </script>
 </body>
 </html>
